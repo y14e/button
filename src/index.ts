@@ -1,7 +1,7 @@
 /**
  * Button
  *
- * @version 1.0.0
+ * @version 1.0.1
  * @author Yusuke Kamiyamane
  * @license MIT
  * @copyright Copyright (c) Yusuke Kamiyamane
@@ -63,12 +63,10 @@ export default class Button {
 
     const active = getActiveElement();
 
-    if (!(active instanceof HTMLElement)) {
-      return;
+    if (active instanceof HTMLElement) {
+      event.preventDefault();
+      active.click();
     }
-
-    event.preventDefault();
-    active.click();
   };
 }
 
