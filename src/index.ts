@@ -1,7 +1,7 @@
 /**
  * Button
  *
- * @version 1.0.3
+ * @version 1.0.4
  * @author Yusuke Kamiyamane
  * @license MIT
  * @copyright Copyright (c) Yusuke Kamiyamane
@@ -77,9 +77,3 @@ export default class Button {
     active.click();
   };
 }
-
-// -----------------------------------------------------------------------------
-// Exports
-// -----------------------------------------------------------------------------
-
-export { getActiveElement };
