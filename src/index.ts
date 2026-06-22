@@ -1,12 +1,18 @@
 /**
  * Button
  *
- * @version 1.0.2
+ * @version 1.0.3
  * @author Yusuke Kamiyamane
  * @license MIT
  * @copyright Copyright (c) Yusuke Kamiyamane
  * @see {@link https://github.com/y14e/button}
  */
+
+// -----------------------------------------------------------------------------
+// Imports
+// -----------------------------------------------------------------------------
+
+import { getActiveElement } from 'power-focusable';
 
 // -----------------------------------------------------------------------------
 // APIs
@@ -73,15 +79,7 @@ export default class Button {
 }
 
 // -----------------------------------------------------------------------------
-// Utils
+// Exports
 // -----------------------------------------------------------------------------
 
-function getActiveElement(): Element | null {
-  let current = document.activeElement;
-
-  while (current?.shadowRoot?.activeElement) {
-    current = current.shadowRoot.activeElement;
-  }
-
-  return current;
-}
+export { getActiveElement };
