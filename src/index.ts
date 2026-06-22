@@ -1,7 +1,7 @@
 /**
  * Button
  *
- * @version 1.0.4
+ * @version 1.0.5
  * @author Yusuke Kamiyamane
  * @license MIT
  * @copyright Copyright (c) Yusuke Kamiyamane
