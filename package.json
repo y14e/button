@@ -1,6 +1,6 @@
 {
   "name": "@y14e/button",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -43,6 +43,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "power-focusable": "^4.3.4"
+    "power-focusable": "^4.3.25"
   }
 }
