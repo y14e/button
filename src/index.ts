@@ -1,7 +1,7 @@
 /**
  * Button
  *
- * @version 1.0.7
+ * @version 1.0.8
  * @author Yusuke Kamiyamane
  * @license MIT
  * @copyright Copyright (c) Yusuke Kamiyamane
@@ -18,7 +18,7 @@ import { getActiveElement } from 'power-focusable';
 // APIs
 // -----------------------------------------------------------------------------
 
-export default class Button {
+export class Button {
   #element!: HTMLElement;
   #controller: AbortController | null = null;
   #isDestroyed = false;
