@@ -1,22 +1,4 @@
-/**
- * Button
- *
- * @version 1.0.8
- * @author Yusuke Kamiyamane
- * @license MIT
- * @copyright Copyright (c) Yusuke Kamiyamane
- * @see {@link https://github.com/y14e/button}
- */
-
-// -----------------------------------------------------------------------------
-// Imports
-// -----------------------------------------------------------------------------
-
 import { getActiveElement } from 'power-focusable';
-
-// -----------------------------------------------------------------------------
-// APIs
-// -----------------------------------------------------------------------------
 
 export class Button {
   #element!: HTMLElement;
